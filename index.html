@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A twelve-week Career and Life Design course hub." />
+    <title>Career &amp; Life Design Journal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#week-content">Skip to this week's lessons</a>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">A 12-week family course</p>
+        <h1>Career &amp; Life<br />Design Journal</h1>
+        <p class="intro">Explore possible lives. Gather evidence. Keep options open.</p>
+      </div>
+      <div class="header-tools" aria-label="Course tools">
+        <button id="print-page" class="button button-quiet" type="button">Print this week</button>
+        <button id="download-backup" class="button button-quiet" type="button">Back up my work</button>
+        <label class="button button-quiet restore-button">Restore backup<input id="restore-backup" type="file" accept="application/json,.json" /></label>
+        <a class="button button-primary" href="#course-map">View all weeks</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="start-panel" aria-labelledby="start-title">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2 id="start-title">This is not a test to find one perfect career.</h2>
+          <p>Use this course to notice what energizes you, investigate real work, and choose small next experiments. A good final answer is: <em>“Here is what I want to explore next, and why.”</em></p>
+        </div>
+        <aside class="progress-card" aria-label="Local course progress">
+          <p class="eyebrow">On this device</p>
+          <p class="progress-number"><span id="progress-count">0</span> of 36 lessons complete</p>
+          <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+          <p id="save-status" class="fine-print" aria-live="polite">Completion checks save automatically in this browser.</p>
+        </aside>
+      </section>
+
+      <section class="weekly-rhythm" aria-labelledby="rhythm-title">
+        <div>
+          <p class="eyebrow">A calm weekly rhythm</p>
+          <h2 id="rhythm-title">About five hours each week</h2>
+        </div>
+        <ol>
+          <li><strong>Monday</strong><span>One 60-minute lesson</span></li>
+          <li><strong>Tue–Thu</strong><span>Four 15-minute journal entries</span></li>
+          <li><strong>Wednesday</strong><span>One 60-minute lesson</span></li>
+          <li><strong>Friday</strong><span>One 60-minute lesson + weekly reflection</span></li>
+        </ol>
+      </section>
+
+      <section class="saving-note" aria-label="Privacy and saved progress">
+        <strong>Keep the journal private.</strong> This public course page saves only lesson completion checks in the browser. Do the journal writing, interview notes, and personal reflections in the private Google Doc—not on this website. Use <em>Back up my work</em> once a week to save the completion record.
+      </section>
+
+      <section class="course-layout" aria-label="Course lessons">
+        <nav id="course-map" class="week-nav" aria-label="Course weeks">
+          <p class="eyebrow">Course map</p>
+          <div id="week-buttons" class="week-buttons"></div>
+        </nav>
+        <article id="week-content" class="week-content" tabindex="-1" aria-live="polite"></article>
+      </section>
+
+      <section class="resource-grid" aria-labelledby="resources-title">
+        <div class="resource-heading">
+          <p class="eyebrow">Research shelf</p>
+          <h2 id="resources-title">Use evidence, not just a quiz</h2>
+        </div>
+        <a href="https://www.onetonline.org/" target="_blank" rel="noreferrer"><strong>O*NET</strong><span>Tasks, skills, work settings, and related careers.</span></a>
+        <a href="https://www.careeronestop.org/ExploreCareers/Assessments/self-assessments.aspx" target="_blank" rel="noreferrer"><strong>CareerOneStop</strong><span>Interest, skills, and work-values prompts.</span></a>
+        <a href="https://www.bls.gov/ooh/" target="_blank" rel="noreferrer"><strong>Occupational Outlook Handbook</strong><span>National work, training, pay, and outlook data.</span></a>
+        <a href="https://jobs.utah.gov/wi/data/career/index.html" target="_blank" rel="noreferrer"><strong>Utah career data</strong><span>Local wages, openings, outlook, and licensing.</span></a>
+        <a href="https://uguide.utah.edu/" target="_blank" rel="noreferrer"><strong>University of Utah UGuide</strong><span>Majors, careers, and pathways to explore.</span></a>
+        <a href="https://apprenticeship.utah.gov/future-apprentices/" target="_blank" rel="noreferrer"><strong>Apprenticeship Utah</strong><span>Paid training and youth pathways.</span></a>
+      </section>
+
+      <section class="template-grid" aria-labelledby="templates-title">
+        <div>
+          <p class="eyebrow">Fieldwork tools</p>
+          <h2 id="templates-title">Conversations and job shadows</h2>
+        </div>
+        <details>
+          <summary>Informational-interview questions</summary>
+          <ol>
+            <li>What does a typical day or week actually look like?</li>
+            <li>What parts of the work are most satisfying? Most difficult?</li>
+            <li>Which skills matter most that outsiders may not see?</li>
+            <li>What are the setting and schedule really like?</li>
+            <li>How did you enter this work, and what other routes are possible?</li>
+            <li>What training, licenses, or experience matter in Utah?</li>
+            <li>What would you want a high-school student to understand first?</li>
+            <li>What should I explore next for another perspective?</li>
+          </ol>
+          <p><a href="https://career.berkeley.edu/start-exploring/informational-interviews/" target="_blank" rel="noreferrer">Read the preparation guide from UC Berkeley.</a></p>
+        </details>
+        <details>
+          <summary>Job-shadow worksheet</summary>
+          <div class="worksheet">
+            <p><strong>Before:</strong> What do I want to learn? What two assumptions am I testing? What privacy, safety, dress, and phone rules apply?</p>
+            <p><strong>During:</strong> Notice typical tasks and tools; people and collaboration; pace, setting, and movement; skills in action; surprises; and questions. Do not record private client, patient, student, or customer information.</p>
+            <p><strong>After (500–700 words):</strong> What did I observe? Which assumptions were confirmed, challenged, or unanswered? What could I enjoy, tolerate, or avoid in this work? What is my next experiment?</p>
+            <p><strong>Finish:</strong> Send a thank-you note within two days.</p>
+          </div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>Career &amp; Life Design Journal · Built for curiosity, reflection, and real-world evidence.</p>
+      <p>Full course details are included in the weekly lessons.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
