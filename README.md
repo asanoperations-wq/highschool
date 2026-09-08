@@ -17,14 +17,13 @@ For a shared, no-cost record:
    - `Research & Evidence` — a folder for career-comparison notes, source links, and screenshots/PDFs.
    - `Final Portfolio` — a folder for the finished materials.
    - `Weekly Check-In` — a simple Google Doc or Sheet with Weeks 1–12 and one “Done / Discuss” note for each week.
-4. Put a copy of this `Career-Life-Design-Hub` folder inside the shared Drive folder. Each person can download it and open `index.html` locally.
 
 Keep all important writing in the private Google journal. The course hub is the public lesson guide and completion tracker; the backup file and shared Drive folder protect its completion record.
 
 ## Privacy
 
-The student may keep personal dashboard and journal sections private, and share a summary instead. For informational interviews and job shadows, a parent should help arrange contact and the student should not record private client, patient, student, or customer information.
+The website does not collect, upload, or store personal writing. Keep the student’s journal, interview notes, and other identifying details in the private Google Drive folder. For informational interviews and job shadows, a parent should help arrange contact and the student should not record private client, patient, student, or customer information.
 
 ## Updating the course
 
-The full source course is in `../career-life-design-course.md`. The hub is intentionally static, so it has no subscriptions, accounts, ads, or ongoing costs.
+The hub is intentionally static, so it has no subscriptions, accounts, ads, or ongoing costs.
