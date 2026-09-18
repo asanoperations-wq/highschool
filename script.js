@@ -4,9 +4,9 @@ const weeks = [
     summary: "Begin with curiosity, not pressure. Set up the journal and notice what your current life already tells you.",
     reflection: "Weekly writing (250–400 words): What did I learn about myself this week? What evidence supports it? What question should I investigate next?",
     lessons: [
-      ["There is no single right path", "Read Chapter 1 of <em>Designing Your Life</em>. Watch <a href='https://www.ted.com/talks/bill_burnett_5_steps_to_designing_the_life_you_want' target='_blank' rel='noreferrer'>Bill Burnett’s TEDxStanford talk</a>.", "Write: What messages have I received about having my life figured out? Which help me, and which create pressure?"],
-      ["Current-life dashboard", "Complete the workbook’s Health/Work/Play/Love dashboard.", "Write 350 words on one area that feels strong, one needing attention, and what ‘better’ would look like this year. This can remain private."],
-      ["Baseline portrait", "Read Stanford’s <a href='https://lifedesignlab.stanford.edu/dyl' target='_blank' rel='noreferrer'>course overview</a>. Start four Good Time Journal entries this week.", "Create a two-page ‘Where I am now’ entry: favorite subjects, responsibilities, frustrations, admired people, and questions about adulthood."]
+      ["Set up your free materials", "<strong>Before doing anything else:</strong> download the five free PDFs in the ‘Download the free worksheets first’ box above and save them in the private course Google Drive folder. Watch <a href='https://www.ted.com/talks/bill_burnett_5_steps_to_designing_the_life_you_want' target='_blank' rel='noreferrer'>Bill Burnett’s TEDxStanford talk</a>. The library book is optional, not required.", "Write: What messages have I received about having my life figured out? Which help me, and which create pressure?"],
+      ["Current-life dashboard", "Open the free <a href='https://designingyour.life/wp-content/uploads/2023/11/DYL-Love-Play-Work-Health-Dashboard-Worksheet-v21.pdf' target='_blank' rel='noreferrer'>Love / Play / Work / Health Dashboard PDF</a> you downloaded. Complete it privately.", "Write 350 words on one area that feels strong, one needing attention, and what ‘better’ would look like this year. This can remain private."],
+      ["Baseline portrait", "Read Stanford’s <a href='https://lifedesignlab.stanford.edu/dyl' target='_blank' rel='noreferrer'>course overview</a>. Open the free <a href='https://designingyour.life/wp-content/uploads/2023/11/DYL-Good-Time-Journal-Activity-Log-v21.pdf' target='_blank' rel='noreferrer'>Good Time Journal PDF</a> and start four entries this week.", "Create a two-page ‘Where I am now’ entry: favorite subjects, responsibilities, frustrations, admired people, and questions about adulthood."]
     ]
   },
   {
@@ -14,8 +14,8 @@ const weeks = [
     summary: "Name provisional values and conditions for a life that feels worthwhile—not a fixed identity.",
     reflection: "Weekly writing: Which values have actual evidence behind them? Where do my Workview and Lifeview agree or pull in different directions?",
     lessons: [
-      ["Workview", "Read the book’s Building a Compass section. Complete the Workview exercise.", "Write 300–400 words: What is work for? Consider contribution, security, challenge, relationships, and freedom."],
-      ["Lifeview", "Complete the Lifeview exercise in the book or workbook.", "Write 300–400 words: What makes a good life? Include relationships, health, community, learning, play, and responsibility."],
+      ["Workview", "No workbook is needed. Use a blank page in the private journal for this course-created worksheet prompt: What is work for?", "Write 300–400 words: Consider contribution, security, challenge, relationships, and freedom."],
+      ["Lifeview", "No workbook is needed. Use a fresh private-journal page for this course-created worksheet prompt: What makes a good life?", "Write 300–400 words: Include relationships, health, community, learning, play, and responsibility."],
       ["Tensions and non-negotiables", "Compare your Workview and Lifeview.", "List five provisional values and five conditions you would rather not give up. Give a real example or reason for each."]
     ]
   },
@@ -24,7 +24,7 @@ const weeks = [
     summary: "The journal becomes evidence: which activities, settings, and problems leave you energized or drained?",
     reflection: "Weekly writing: What patterns show up in my energy and engagement? What is the strongest piece of evidence?",
     lessons: [
-      ["Wayfinding", "Read the book’s Wayfinding section and review the first two weeks of Good Time Journal entries.", "Underline activities, people, settings, or problems that raise both engagement and energy."],
+      ["Wayfinding", "Review the first two weeks of Good Time Journal entries. Open the free <a href='https://designingyour.life/wp-content/uploads/2023/11/DYL-Energy-Engagement-Worksheet-v21.pdf' target='_blank' rel='noreferrer'>Energy & Engagement PDF</a> and complete it privately.", "Underline activities, people, settings, or problems that raise both engagement and energy."],
       ["Pattern map", "Make four lists: I enjoy; I am becoming capable at; I care about; I avoid or find draining.", "For every item, add a real example—not only an adjective."],
       ["Curiosity inventory", "List 25 curiosities: jobs, problems, communities, skills, places, lifestyles, or technologies.", "Circle 10 worth a closer look. Explain which three surprise you and why."]
     ]
@@ -34,7 +34,7 @@ const weeks = [
     summary: "Use assessments to generate questions, not to receive a verdict about who you are.",
     reflection: "Weekly writing: Which assessment ideas fit the evidence I already have? Which do not? What might the tools be missing?",
     lessons: [
-      ["Getting unstuck", "Read the book’s reframing section.", "Turn three limiting beliefs into useful questions. Example: ‘What low-risk experience would give me better evidence?’"],
+      ["Getting unstuck", "Open the free <a href='https://designingyour.life/wp-content/uploads/2023/11/DYL-Failure-Log-Worksheet-v21.pdf' target='_blank' rel='noreferrer'>Failure Log PDF</a> and use it privately to look at one setback or disappointment as evidence—not a verdict.", "Turn three limiting beliefs into useful questions. Example: ‘What low-risk experience would give me better evidence?’"],
       ["Interests", "Complete the <a href='https://www.careeronestop.org/ExploreCareers/Assessments/self-assessments.aspx' target='_blank' rel='noreferrer'>CareerOneStop Interest Assessment</a>.", "Identify results that fit current evidence, ones that do not, and questions worth exploring."],
       ["Values and skills evidence", "Complete the <a href='https://www.careeronestop.org/ExploreCareers/Assessments/work-values.aspx' target='_blank' rel='noreferrer'>Work Values Matcher</a>.", "List 10 skills with a school, home, volunteer, hobby, or work example that demonstrates each skill."]
     ]
@@ -44,9 +44,9 @@ const weeks = [
     summary: "Create three different five-year possibilities, then compare them without forcing a choice.",
     reflection: "Weekly writing: What is common across all three plans? What question, rather than conclusion, comes next?",
     lessons: [
-      ["Odyssey Plan A", "Read the book’s Odyssey Plans section.", "Draft a plausible five-year path if current interests continue. Include location, typical week, learning, people, money needs, and one uncertainty."],
-      ["Alternate possibilities", "Create Plan B (if Plan A vanished) and Plan C (a path worth trying without status or image pressure).", "Make them genuinely different; neither must be ‘the answer.’"],
-      ["Compare without choosing", "Use Stanford’s <a href='https://lifedesignlab.stanford.edu/dyl' target='_blank' rel='noreferrer'>Odyssey Plan description</a> as context.", "Rate each plan for curiosity, coherence with values, confidence, and unanswered questions—not prestige."]
+      ["Odyssey Plan A", "Open the free <a href='https://designingyour.life/wp-content/uploads/2023/11/DYL-Odyssey-Planning-Worksheet-v21.pdf' target='_blank' rel='noreferrer'>Odyssey Planning PDF</a> you downloaded. Complete Plan A: a plausible five-year path if current interests continue.", "Include location, typical week, learning, people, money needs, and one uncertainty."],
+      ["Alternate possibilities", "Use the same free Odyssey Planning PDF to create Plan B (if Plan A vanished) and Plan C (a path worth trying without status or image pressure).", "Make them genuinely different; neither must be ‘the answer.’"],
+      ["Compare without choosing", "Use Stanford’s <a href='https://lifedesignlab.stanford.edu/dyl' target='_blank' rel='noreferrer'>course overview</a> as context.", "Rate each plan for curiosity, coherence with values, confidence, and unanswered questions—not prestige."]
     ]
   },
   {
@@ -104,7 +104,7 @@ const weeks = [
     summary: "Try one small, low-risk experience to get better evidence—not to prove a career choice.",
     reflection: "Weekly writing (500 words): What did I expect? What happened? What evidence strengthened, weakened, or complicated this direction?",
     lessons: [
-      ["Choose a test", "Read the book’s Prototyping section.", "Choose one job shadow, supervised volunteer shift, campus/program visit, small project, introductory lesson, or extra conversation. State the assumption it will test."],
+      ["Choose a test", "Use a small, low-risk test rather than trying to make a permanent choice.", "Choose one job shadow, supervised volunteer shift, campus/program visit, small project, introductory lesson, or extra conversation. State the assumption it will test."],
       ["Complete the test", "Use the job-shadow worksheet below if applicable. Alternatives are a virtual tour, recorded professional interview, or supervised hands-on project.", "The goal is evidence, not an impressive experience."],
       ["Reflect and revise", "Review your notes and the four-career comparison.", "What is the next smallest useful experiment or question?"]
     ]
