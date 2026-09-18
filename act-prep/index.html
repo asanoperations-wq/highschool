@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A twelve-week ACT preparation course based on The Official ACT Prep Guide 2024–2025." />
+    <title>ACT Prep Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#week-content">Skip to this week’s lessons</a>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">A 12-week student course</p>
+        <h1>ACT<br />Prep Lab</h1>
+        <p class="intro">Practice deliberately. Learn from every miss. Walk in ready.</p>
+      </div>
+      <div class="header-tools" aria-label="Course tools">
+        <button id="print-page" class="button button-quiet" type="button">Print this week</button>
+        <button id="download-backup" class="button button-quiet" type="button">Back up my work</button>
+        <label class="button button-quiet restore-button">Restore backup<input id="restore-backup" type="file" accept="application/json,.json" /></label>
+        <a class="button button-primary" href="#course-map">View all weeks</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="start-panel" aria-labelledby="start-title">
+        <div>
+          <p class="eyebrow">Start here</p>
+          <h2 id="start-title">The ACT is a skill-and-strategy test, not a verdict about you.</h2>
+          <p>Work three focused sessions each week. Use the official guide for real questions and clear explanations; use this hub to decide what to practice, record what went wrong, and check off completed work.</p>
+          <p class="important-note"><strong>Current-test note:</strong> The guide is from 2024–2025. For current timed practice and section choices, use the official enhanced-ACT resources linked below. The current core ACT is English, math, and reading; science and writing are optional.</p>
+        </div>
+        <aside class="progress-card" aria-label="Local course progress">
+          <p class="eyebrow">On this device</p>
+          <p class="progress-number"><span id="progress-count">0</span> of 36 lessons complete</p>
+          <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+          <p id="save-status" class="fine-print" aria-live="polite">Completion checks save automatically in this browser.</p>
+        </aside>
+      </section>
+
+      <section class="weekly-rhythm" aria-labelledby="rhythm-title">
+        <div>
+          <p class="eyebrow">A simple rhythm</p>
+          <h2 id="rhythm-title">Three sessions, plus a practice block when scheduled</h2>
+        </div>
+        <ol>
+          <li><strong>Session 1</strong><span>Learn one idea; do a small, untimed set.</span></li>
+          <li><strong>Session 2</strong><span>Practice it under a short timer; enter every miss in the error log.</span></li>
+          <li><strong>Session 3</strong><span>Correct and explain the misses; decide what comes next.</span></li>
+          <li><strong>Practice weeks</strong><span>Reserve one quiet block for the test, then another for scoring and review.</span></li>
+        </ol>
+      </section>
+
+      <section class="saving-note" aria-label="Privacy and saved progress">
+        <strong>Keep score reports and reflections private.</strong> This page saves only completion checks in this browser. Keep raw scores, error logs, and any test-registration details in a private Google Doc, Sheet, or paper notebook. Back up the completion record once each week.
+      </section>
+
+      <section class="course-layout" aria-label="ACT course lessons">
+        <nav id="course-map" class="week-nav" aria-label="Course weeks">
+          <p class="eyebrow">Course map</p>
+          <div id="week-buttons" class="week-buttons"></div>
+        </nav>
+        <article id="week-content" class="week-content" tabindex="-1" aria-live="polite"></article>
+      </section>
+
+      <section class="resource-grid" aria-labelledby="resources-title">
+        <div class="resource-heading">
+          <p class="eyebrow">Practice + video shelf</p>
+          <h2 id="resources-title">Use the current official test for timing.</h2>
+          <p>The book provides real ACT questions and explanations. Use its questions generously, but use current official resources whenever you are practicing the enhanced test’s format or time limits.</p>
+        </div>
+        <a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep.html" target="_blank" rel="noreferrer"><strong>Official free practice</strong><span>Current full-length tests, subject quizzes, and daily practice from ACT.</span></a>
+        <a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/act-exam-sections-and-structure.html" target="_blank" rel="noreferrer"><strong>Current format guide</strong><span>Section choices, current question counts, time limits, and skills tested.</span></a>
+        <a href="https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/free-act-test-prep/math-calculator-how-to-videos.html" target="_blank" rel="noreferrer"><strong>Official calculator videos</strong><span>Short TI-84 and embedded-Desmos tutorials using ACT-style problems.</span></a>
+        <a href="https://www.act.org/content/act/en/students-and-parents/high-school-success/testing-advice-for-the-act/act-english-test-tips.html" target="_blank" rel="noreferrer"><strong>English mini-videos</strong><span>Official clips on fragments and choosing the best fit in context.</span></a>
+        <a href="https://www.act.org/content/act/en/students-and-parents/high-school-success/testing-advice-for-the-act/act-reading-test-tips.html" target="_blank" rel="noreferrer"><strong>Reading prep session</strong><span>Official reading tips plus an on-demand session on preparation and test anxiety.</span></a>
+        <a href="https://www.youtube.com/watch?v=Afdfq7K3ZpM" target="_blank" rel="noreferrer"><strong>Magoosh: 5 ACT Math tips</strong><span>A short strategy refresher. Use it for ideas, but use ACT’s current timing for all timed work.</span></a>
+      </section>
+
+      <section class="template-grid" aria-labelledby="templates-title">
+        <div>
+          <p class="eyebrow">Private study tools</p>
+          <h2 id="templates-title">Turn each miss into a next step.</h2>
+        </div>
+        <div class="details-stack">
+          <details>
+            <summary>Error-log prompts</summary>
+            <ol>
+              <li>What skill or question type was this?</li>
+              <li>What did I do or think that led to the wrong answer?</li>
+              <li>What rule, evidence, or procedure makes the correct answer work?</li>
+              <li>Was the cause content, reading the question, timing, calculator use, or carelessness?</li>
+              <li>What one small practice set will I do next?</li>
+            </ol>
+          </details>
+          <details>
+            <summary>Score-check routine</summary>
+            <p>After every timed set, record: questions attempted, correct, unanswered, minutes used, the two most common error causes, and one specific next action. Do not spend the whole review session merely reading answer explanations—redo missed problems before looking.</p>
+          </details>
+          <details>
+            <summary>What “done” means each week</summary>
+            <p>Checking a lesson means the reading or video was completed, the practice was attempted honestly, and the score/error-log note was written. A low score is still useful data, not a reason to skip the review.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>ACT Prep Lab · Built around <em>The Official ACT Prep Guide 2024–2025</em> and current official ACT resources.</p>
+      <p><a href="README.md">Family setup notes</a></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
